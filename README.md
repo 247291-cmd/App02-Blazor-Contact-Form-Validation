@@ -1,7 +1,7 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## Commit 20
-fix: ensure form cannot submit with invalid data
+## Commit 21
+style: add responsive col-md-6 col-lg-5 layout
 
 Blazor Assignment 4 - Mr. Qaiser Ali
 
