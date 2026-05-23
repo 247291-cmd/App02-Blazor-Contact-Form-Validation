@@ -1,7 +1,7 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## Commit 14
-style: style form inputs with bg-light border-0
+## Commit 15
+style: add success checkmark icon on submission
 
 Blazor Assignment 4 - Mr. Qaiser Ali
 
