@@ -1,5 +1,5 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## style: add responsive col-md-6 layout
+## refactor: move ContactModel class inside component
 
-Commit #20
+Commit #21
