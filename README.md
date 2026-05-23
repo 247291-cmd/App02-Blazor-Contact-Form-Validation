@@ -1,5 +1,5 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## style: add gradient NavMenu header
+## fix: validation messages show in red
 
-Commit #23
+Commit #24
