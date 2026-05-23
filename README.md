@@ -1,5 +1,5 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## feat: add DataAnnotationsValidator to form
+## feat: add Required attribute to FirstName field
 
-Commit #3
+Commit #4
