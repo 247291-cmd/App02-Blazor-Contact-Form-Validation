@@ -1,5 +1,5 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## chore: add gitignore
+## docs: add README for App02
 
-Commit #25
+Commit #26
