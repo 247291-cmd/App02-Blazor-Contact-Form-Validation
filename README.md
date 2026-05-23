@@ -1,5 +1,5 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## style: add success checkmark icon
+## style: improve form layout and spacing
 
-Commit #15
+Commit #16
