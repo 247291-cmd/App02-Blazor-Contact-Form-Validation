@@ -1,5 +1,5 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## style: add gradient purple background
+## style: add card with rounded corners and shadow
 
-Commit #11
+Commit #12
