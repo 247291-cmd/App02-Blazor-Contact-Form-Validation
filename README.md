@@ -1,5 +1,5 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## feat: add Required attribute to LastName field
+## feat: add EmailAddress validation attribute
 
-Commit #5
+Commit #6
