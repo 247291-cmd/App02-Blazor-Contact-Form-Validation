@@ -1,7 +1,7 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## Commit 23
-style: add min-vh-100 full height background
+## Commit 24
+feat: update NavMenu with app branding
 
 Blazor Assignment 4 - Mr. Qaiser Ali
 
