@@ -1,8 +1,8 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## Commit 6
-feat: add LastName field with Required validation
+## Commit 7
+feat: add Email field with EmailAddress validation attribute
 
 Blazor Assignment 4 - Mr. Qaiser Ali
 
-Updated: 2026-05-23 15:37:18
+Updated: 2026-05-23 15:37:19
