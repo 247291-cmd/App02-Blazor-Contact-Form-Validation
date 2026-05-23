@@ -1,5 +1,5 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## style: add gradient submit button
+## style: add success checkmark icon
 
-Commit #14
+Commit #15
