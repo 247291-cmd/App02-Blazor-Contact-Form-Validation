@@ -1,7 +1,7 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## Commit 21
-style: add responsive col-md-6 col-lg-5 layout
+## Commit 22
+feat: add PageTitle Contact Form
 
 Blazor Assignment 4 - Mr. Qaiser Ali
 
