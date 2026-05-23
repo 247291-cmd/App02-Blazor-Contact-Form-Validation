@@ -1,5 +1,5 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## refactor: move ContactModel class inside component
+## feat: add NavMenu with app branding
 
-Commit #21
+Commit #22
