@@ -1,5 +1,5 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## fix: form cannot submit until all validations pass
+## feat: add StringLength validation on name fields
 
-Commit #17
+Commit #18
