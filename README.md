@@ -1,7 +1,7 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## Commit 17
-style: add text-uppercase small labels
+## Commit 18
+feat: add ContactModel class with data annotations
 
 Blazor Assignment 4 - Mr. Qaiser Ali
 
