@@ -1,5 +1,5 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## feat: add ValidationMessage for each field
+## feat: add OnValidSubmit handler
 
-Commit #7
+Commit #8
