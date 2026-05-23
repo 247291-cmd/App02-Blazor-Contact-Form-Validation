@@ -1,7 +1,7 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## Commit 11
-feat: add Submit Another button to reset form
+## Commit 12
+style: add gradient background purple theme
 
 Blazor Assignment 4 - Mr. Qaiser Ali
 
