@@ -1,5 +1,5 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## style: style input fields with bg-light
+## style: add gradient submit button
 
-Commit #13
+Commit #14
