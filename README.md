@@ -1,7 +1,7 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## Commit 2
-feat: create App02 ContactForm Blazor project
+## Commit 3
+feat: add EditForm component with FormName attribute
 
 Blazor Assignment 4 - Mr. Qaiser Ali
 
