@@ -1,5 +1,5 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## fix: validation messages show in red
+## chore: add gitignore
 
-Commit #24
+Commit #25
