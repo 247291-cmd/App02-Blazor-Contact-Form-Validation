@@ -1,5 +1,5 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## feat: add Reset button to submit another response
+## style: add gradient purple background
 
-Commit #10
+Commit #11
