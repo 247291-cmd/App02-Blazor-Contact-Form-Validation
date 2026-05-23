@@ -1,84 +1,97 @@
 ﻿@page "/"
 @rendermode InteractiveServer
 
-<PageTitle>Contact Form</PageTitle>
+<PageTitle>Contact Form - App 02</PageTitle>
 
-<div class="min-vh-100 d-flex align-items-center" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
-    <div class="container py-5">
-        <div class="row justify-content-center">
-            <div class="col-md-6 col-lg-5">
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-7 col-lg-6">
 
-                @if (isSubmitted)
-                {
-                    <div class="card border-0 shadow-lg" style="border-radius:20px;">
-                        <div class="card-body text-center py-5 px-4">
-                            <div class="mb-4">
-                                <div class="rounded-circle bg-success d-inline-flex align-items-center justify-content-center"
-                                     style="width:80px;height:80px;">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" viewBox="0 0 16 16">
-                                        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
-                                    </svg>
-                                </div>
-                            </div>
-                            <h3 class="fw-bold text-success mb-2">Success!</h3>
-                            <p class="text-muted mb-1">Thank you, <strong>@model.FirstName @model.LastName</strong></p>
-                            <p class="text-muted mb-4">We will contact you at <strong>@model.Email</strong></p>
-                            <button class="btn btn-primary px-4 py-2 rounded-pill" @onclick="ResetForm">
-                                Submit Another Response
-                            </button>
-                        </div>
-                    </div>
-                }
-                else
-                {
-                    <div class="text-center mb-4">
-                        <h2 class="text-white fw-bold">Contact Us</h2>
-                        <p class="text-white opacity-75">Fill in your details below</p>
-                    </div>
-
-                    <div class="card border-0 shadow-lg" style="border-radius:20px;">
-                        <div class="card-body p-4">
-                            <EditForm Model="model" OnValidSubmit="HandleValidSubmit" FormName="ContactForm">
-                                <DataAnnotationsValidator />
-
-                                <div class="mb-3">
-                                    <label class="form-label fw-semibold text-muted small text-uppercase">First Name</label>
-                                    <InputText @bind-Value="model.FirstName"
-                                               class="form-control form-control-lg border-0 bg-light"
-                                               style="border-radius:10px;"
-                                               placeholder="Enter first name" />
-                                    <ValidationMessage For="@(() => model.FirstName)" class="text-danger small mt-1" />
-                                </div>
-
-                                <div class="mb-3">
-                                    <label class="form-label fw-semibold text-muted small text-uppercase">Last Name</label>
-                                    <InputText @bind-Value="model.LastName"
-                                               class="form-control form-control-lg border-0 bg-light"
-                                               style="border-radius:10px;"
-                                               placeholder="Enter last name" />
-                                    <ValidationMessage For="@(() => model.LastName)" class="text-danger small mt-1" />
-                                </div>
-
-                                <div class="mb-4">
-                                    <label class="form-label fw-semibold text-muted small text-uppercase">Email Address</label>
-                                    <InputText @bind-Value="model.Email"
-                                               class="form-control form-control-lg border-0 bg-light"
-                                               style="border-radius:10px;"
-                                               placeholder="you@example.com" />
-                                    <ValidationMessage For="@(() => model.Email)" class="text-danger small mt-1" />
-                                </div>
-
-                                <div class="d-grid">
-                                    <button type="submit" class="btn btn-primary btn-lg fw-bold py-3"
-                                            style="border-radius:12px; background: linear-gradient(135deg, #667eea, #764ba2); border:none;">
-                                        Submit Form
-                                    </button>
-                                </div>
-                            </EditForm>
-                        </div>
-                    </div>
-                }
+            <div class="text-center mb-4">
+                <h2 class="fw-bold text-dark">App 02 - Contact Form</h2>
+                <p class="text-muted">Form Validation with DataAnnotations</p>
             </div>
+
+            @if (isSubmitted)
+            {
+                <div class="card border-0 shadow" style="border-radius:16px;">
+                    <div class="card-body text-center py-5 px-4">
+                        <div class="rounded-circle bg-success d-inline-flex align-items-center justify-content-center mb-4"
+                             style="width:80px;height:80px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" viewBox="0 0 16 16">
+                                <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                            </svg>
+                        </div>
+                        <h3 class="fw-bold text-success mb-2">Form Submitted Successfully!</h3>
+                        <p class="text-muted mb-1">Thank you, <strong class="text-dark">@model.FirstName @model.LastName</strong></p>
+                        <p class="text-muted mb-4">We will contact you at <strong class="text-dark">@model.Email</strong></p>
+                        <button class="btn btn-primary px-4 rounded-pill" @onclick="ResetForm">Submit Another</button>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div class="card border-0 shadow" style="border-radius:16px;">
+                    <div class="card-header text-white py-3 px-4" style="background:#4f46e5; border-radius:16px 16px 0 0;">
+                        <h5 class="mb-0 fw-bold">Contact Information</h5>
+                        <small class="opacity-75">All fields are required</small>
+                    </div>
+                    <div class="card-body p-4">
+                        <EditForm Model="model" OnValidSubmit="HandleValidSubmit" FormName="ContactForm">
+                            <DataAnnotationsValidator />
+
+                            <div class="mb-3">
+                                <label class="form-label fw-semibold text-dark">
+                                    First Name <span class="text-danger">*</span>
+                                </label>
+                                <InputText @bind-Value="model.FirstName"
+                                           class="form-control"
+                                           placeholder="Enter first name" />
+                                <ValidationMessage For="@(() => model.FirstName)" class="text-danger small mt-1 d-block" />
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label fw-semibold text-dark">
+                                    Last Name <span class="text-danger">*</span>
+                                </label>
+                                <InputText @bind-Value="model.LastName"
+                                           class="form-control"
+                                           placeholder="Enter last name" />
+                                <ValidationMessage For="@(() => model.LastName)" class="text-danger small mt-1 d-block" />
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="form-label fw-semibold text-dark">
+                                    Email Address <span class="text-danger">*</span>
+                                </label>
+                                <InputText @bind-Value="model.Email"
+                                           class="form-control"
+                                           placeholder="you@example.com" />
+                                <ValidationMessage For="@(() => model.Email)" class="text-danger small mt-1 d-block" />
+                            </div>
+
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-lg text-white fw-bold py-3"
+                                        style="background:#4f46e5; border:none; border-radius:10px;">
+                                    Submit Form
+                                </button>
+                            </div>
+                        </EditForm>
+                    </div>
+                </div>
+
+                <div class="card mt-4 border-0 shadow-sm" style="border-radius:16px; background:#f8f9ff;">
+                    <div class="card-body p-4">
+                        <h6 class="fw-bold text-dark mb-3">How Validation Works</h6>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2 text-dark small"><span class="badge bg-primary me-2">EditForm</span>Wraps the form and manages validation context</li>
+                            <li class="mb-2 text-dark small"><span class="badge bg-success me-2">DataAnnotationsValidator</span>Reads [Required] and [EmailAddress] attributes</li>
+                            <li class="mb-2 text-dark small"><span class="badge bg-warning text-dark me-2">ValidationMessage</span>Shows error per field when validation fails</li>
+                            <li class="text-dark small"><span class="badge bg-danger me-2">OnValidSubmit</span>Only fires when ALL validations pass</li>
+                        </ul>
+                    </div>
+                </div>
+            }
         </div>
     </div>
 </div>
