@@ -1,7 +1,7 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## Commit 25
-refactor: clean up component code
+## Commit 26
+chore: add .gitignore
 
 Blazor Assignment 4 - Mr. Qaiser Ali
 
