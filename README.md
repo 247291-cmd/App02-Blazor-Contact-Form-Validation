@@ -1,7 +1,7 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## Commit 4
-feat: add DataAnnotationsValidator to form
+## Commit 5
+feat: add FirstName field with Required and StringLength attributes
 
 Blazor Assignment 4 - Mr. Qaiser Ali
 
