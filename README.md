@@ -1,5 +1,5 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## feat: add EmailAddress validation attribute
+## feat: add ValidationMessage for each field
 
-Commit #6
+Commit #7
