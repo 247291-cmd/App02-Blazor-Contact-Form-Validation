@@ -1,7 +1,7 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## Commit 9
-feat: implement OnValidSubmit handler
+## Commit 10
+feat: add success screen after valid form submission
 
 Blazor Assignment 4 - Mr. Qaiser Ali
 
