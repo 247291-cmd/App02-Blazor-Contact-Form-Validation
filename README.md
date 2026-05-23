@@ -1,5 +1,5 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## feat: add NavMenu with app branding
+## style: add gradient NavMenu header
 
-Commit #22
+Commit #23
