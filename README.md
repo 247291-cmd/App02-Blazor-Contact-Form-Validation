@@ -1,5 +1,5 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## style: improve form layout and spacing
+## fix: form cannot submit until all validations pass
 
-Commit #16
+Commit #17
