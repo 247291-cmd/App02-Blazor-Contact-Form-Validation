@@ -1,7 +1,7 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## Commit 26
-chore: add .gitignore
+## Commit 27
+docs: add README for App02
 
 Blazor Assignment 4 - Mr. Qaiser Ali
 
