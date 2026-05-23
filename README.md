@@ -1,5 +1,5 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## style: add card with rounded corners and shadow
+## style: style input fields with bg-light
 
-Commit #12
+Commit #13
