@@ -1,5 +1,5 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## feat: add success screen after form submission
+## feat: add Reset button to submit another response
 
-Commit #9
+Commit #10
