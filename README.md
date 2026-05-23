@@ -1,5 +1,5 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## feat: add StringLength validation on name fields
+## feat: add placeholder text to all inputs
 
-Commit #18
+Commit #19
