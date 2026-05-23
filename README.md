@@ -1,5 +1,5 @@
 ﻿# App02-Blazor-Contact-Form-Validation
 
-## feat: add placeholder text to all inputs
+## style: add responsive col-md-6 layout
 
-Commit #19
+Commit #20
